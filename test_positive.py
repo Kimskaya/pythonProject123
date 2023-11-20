@@ -1,6 +1,6 @@
 import subprocess
 tst = "/home/user/tst"
-out  = "home/user/out"
+out = "home/user/out"
 folder1 = "/home/user/folder1"
 folder2 = "home/user/folder2"
 
