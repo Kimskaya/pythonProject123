@@ -14,7 +14,7 @@ if __name__ == '__main__':
                 for i in out:
                     if i in string.punctuation:
                         out = out.replace(i, ' ')
-                new_list = out.split()
+                new_list = out.split()1
                 if text in new_list:
                     return True
                 else:
