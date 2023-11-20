@@ -1,8 +1,8 @@
 import subprocess
 tst = "/home/user/tst"
-out = "home/user/out"
+out = "/home/user/out"
 folder1 = "/home/user/folder1"
-folder2 = "home/user/folder2"
+folder2 = "/home/user/folder2"
 
 def checkout(cmd, text):
     result = subprocess.run(cmd,shell=True, stdout=subprocess.PIPE, encoding='utf-8')
